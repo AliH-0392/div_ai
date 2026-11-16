@@ -1,0 +1,21 @@
+Python dilində dictionary və şərt operatorlarından istifadə edərək sadə bank sistemi hazırlamalısan. Proqram istifadəçinin məlumatlarını yoxlamalı, hesabına daxil olmasına icazə verməli və pul çıxarma əməliyyatını həyata keçirməlidir.
+
+1. İstifadəçinin yoxlanılması
+- İstifadəçidən adını daxil etməsini istə.
+- Əgər daxil edilən ad accounts dictionary-sində yoxdursa, ekrana "İstifadəçi tapılmadı!" yazdır.
+- Əgər istifadəçi mövcuddursa, növbəti mərhələyə keç.
+2. Şifrənin yoxlanılması
+- İstifadəçidən şifrəsini daxil etməsini istə.
+- Əgər şifrə yanlışdırsa, "Şifrə yanlışdır!" mesajını göstər.
+- Əgər şifrə doğrudursa, istifadəçini salamla.
+
+4. Pul çıxarılması
+
+İstifadəçidən hesabından çıxarmaq istədiyi məbləği soruş.
+
+Daxil edilən məbləğə uyğun olaraq aşağıdakı şərtləri yoxla:
+- Məbləğ 0-a bərabər və ya mənfidirsə, "Yanlış məbləğ!" mesajını göstər.
+- Məbləğ balansdan çoxdursa, "Balansınızda kifayət qədər pul yoxdur!" mesajını göstər.
+- İstifadəçi təsdiq edərsə, əməliyyatı həyata keçir.
+- İstifadəçi təsdiq etməzsə, əməliyyatı ləğv et.
+- Məbləğ bütün şərtlərə uyğundursa, balansdan həmin məbləği çıx.
