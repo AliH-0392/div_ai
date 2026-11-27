@@ -2,3 +2,5 @@
 .vscode
 dataset.csv
 datasetler
+*.txt
+*.csv
